@@ -1,0 +1,141 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.maindiv {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+.headertrclass {
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  background-color: black;
+  color: white;
+  font-size: 19px;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.id {
+  width: 5%;
+}
+.name {
+  width: 15%;
+}
+.email {
+  width: 25%;
+}
+.password {
+  width: 30%;
+}
+.action {
+  width: 10%;
+}
+.status {
+  width: 10%;
+}
+.headerdataclass {
+  width: 100%;
+  display: flex;
+  padding-left: 20px;
+  border-bottom: 1px solid gray;
+  height: 40px;
+  align-items: center;
+}
+.headerdataclass h1 {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+.actiondiv {
+  width: 20%;
+  display: flex;
+  gap: 1rem;
+}
+.actiondiv a {
+  text-decoration: none;
+  font-family: sans-serif;
+  /* border:1px solid blue; */
+  padding: 5px 7px;
+  border-radius: 3px;
+  color: white;
+  background-color: #007bff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.headerdataclass span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.headerdataclass span p {
+  cursor: pointer;
+}
+.passwordh2 {
+  font-size: 12px;
+  width: 30%;
+}
+.statush2 {
+  font-size: 17px;
+  font-weight: 600;
+  width: 10%;
+}
+.addyourpost {
+  text-decoration: none;
+}
+.postdiv {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+  width: 120px;
+}
+.addyourpost p {
+  border: 1px solid black;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: #007bff;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px gray;
+  cursor: pointer;
+}
+.headerdataclass span p {
+  text-decoration: none;
+
+  padding: 4px;
+  background-color: #007bff;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px gray;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.updatelink {
+  text-decoration: none;
+}
+.update {
+  background-color: red !important;
+  text-decoration: none;
+}
